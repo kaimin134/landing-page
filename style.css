@@ -83,8 +83,49 @@ a {
 }
 
 .intro img {
-    object-fit: contain;
+    object-fit: cover;
     height: 50%;
     width: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 36px auto;
+    
+}
+
+.info {
+ 
+
+padding-bottom: 108px;
+ 
+}
+
+.cards-container {
+    display: flex;
+
+
+    gap: 16px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    width: 96px;
+    height: 96px;
+    border-radius: 12px;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #656a73;
 }
 
