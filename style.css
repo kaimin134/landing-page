@@ -120,15 +120,15 @@ padding-bottom: 108px;
 
 .square {
     border: 3px solid #3882F6;
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
     border-radius: 12px;
 }
 
 .square img {
     object-fit: cover; 
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
 
     border-radius: 5px;
 }
@@ -139,7 +139,7 @@ padding-bottom: 108px;
     align-items: center;
     gap: 8px;
     color: #656a73;
-    max-width: 96px;
+    max-width: 130px;
 }
 
 .quote {
@@ -159,16 +159,20 @@ padding-bottom: 108px;
 
 .call {
     background-color: #3882F6;
-    margin: 108px 156px;
+    margin: 80px 180px;
     padding: 36px 64px;
     display: flex;
     color: #F9FAF8;
     justify-content: space-around;
     border-radius: 5px;
+  
 }
-
+h3 {
+    font-size: 24px;
+}
 .call p{
     color:hsl(217, 22%, 86%);
+    font-size: 20px;
 }
 
 .call button {
@@ -179,6 +183,7 @@ padding-bottom: 108px;
     padding: 6px 30px;
     flex: 0 0 auto;
     border-style: solid;
+    font-size: 24px;
 }
 
 footer {
