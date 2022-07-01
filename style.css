@@ -33,6 +33,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     height: 100%;
+    gap: 12px;
 
 }
 
@@ -42,6 +43,7 @@ body {
     padding: 8px 32px;
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 
@@ -127,7 +129,8 @@ padding-bottom: 108px;
     object-fit: cover; 
     width: 96px;
     height: 96px;
-    
+
+    border-radius: 5px;
 }
 .card {
     text-align: center;
