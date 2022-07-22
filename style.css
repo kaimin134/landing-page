@@ -123,7 +123,7 @@ h2 {
 .background {
     position: absolute;
     z-index: 0;
-    background-color: #f9564f;
+    background-color:#7b1e7a;
     opacity: 60%;
     top: 0;
     left: 0;
@@ -231,10 +231,13 @@ h3 {
     flex: 0 0 auto;
     border-style: solid;
     font-size: 24px;
+
 }
 
 
-    
+body {
+        background-color:#f3c677;
+}
 
 footer {
     background-color: #0c0a3e;
@@ -248,4 +251,33 @@ footer {
   bottom: 0;
   width: 100%;
 }
+#btn4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
 
+  #btn4::before,
+#btn4::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+  
+  #btn4:after {
+    left: -100%;
+    clip-path: polygon(10% 0, 70% 0, 90% 100%, 30% 100%);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 300ms ease;
+  }
+  
+  #btn4:hover::after {
+    left: 100%;
+  }
