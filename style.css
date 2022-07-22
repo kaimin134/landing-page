@@ -131,6 +131,9 @@ h2 {
     height: fit-content;
     overflow: hidden;
     font-size: 0;
+    padding-left: auto;
+    padding-right: auto;
+    
     
 }
 #grid {
@@ -252,9 +255,10 @@ footer {
   width: 100%;
 }
 #btn4 {
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
+   /* justify-content: center;*/
+    align-items: center; 
     overflow: hidden;
     transition: all 0.8s ease;
     position: relative;
