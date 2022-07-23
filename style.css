@@ -52,6 +52,7 @@ body {
     font-size: 18px;
     color: #f3c677;
     margin-bottom: 0.70em;
+    animation: 2s ease-out 0s 1 slideUp;
 
 
 }
@@ -59,6 +60,7 @@ h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f3c677;
+    animation: 2s ease-out 0s 1 slideUp;
 
 }
 
@@ -131,9 +133,12 @@ h2 {
     height: fit-content;
     overflow: hidden;
     font-size: 0;
-    padding-left: auto;
+    padding-left: 0;
     padding-right: auto;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     
 }
 #grid {
@@ -255,10 +260,14 @@ footer {
   width: 100%;
 }
 #btn4 {
-    
+   
+   
+    animation: 2s ease-out 0s 1 scaleUp;
+  
     display: flex;
-   /* justify-content: center;*/
+   justify-content: center;
     align-items: center; 
+   
     overflow: hidden;
     transition: all 0.8s ease;
     position: relative;
@@ -285,3 +294,25 @@ footer {
   #btn4:hover::after {
     left: 100%;
   }
+
+  @keyframes scaleUp {
+    0% {
+        transform: scale(0.5);
+        transform-origin: bottom left;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: bottom left;
+        
+        
+    }
+}
+
+    @keyframes slideUp {
+        0% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(0%);
+        }
+    }
