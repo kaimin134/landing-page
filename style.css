@@ -9,7 +9,7 @@
 body {
 }
 .header{
-    background-color: #0c0a3e;
+    background-color: black;
     display: flex;
     flex-direction: column;
 
@@ -41,8 +41,8 @@ body {
     border: none;
     border-radius: 5px;
     padding: 8px 32px;
-    background-color: #f9564f;
-    color: #7b1e7a;
+    background-color: #7b1e7a;
+    color: #f3c677;
     font-size: 24px;
 }
 
@@ -101,7 +101,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: extra-bold;
-    color: #0c0a3e;
+    color: black;
     margin: 0px auto;
     margin-bottom: 36px;
     
@@ -199,7 +199,7 @@ h2 {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #0c0a3e;
+    color: black;
     padding: 108px 216px;
     
 
@@ -211,7 +211,7 @@ h2 {
 }
 
 .call {
-    background-color: #0c0a3e;
+    background-color: black;
     margin: 80px 180px; 
     padding: 36px 64px;
     display: flex;
@@ -248,7 +248,7 @@ body {
 }
 
 footer {
-    background-color: #0c0a3e;
+    background-color: black;
     padding: 32px;
     text-align: center;
     color: #f3c677;
