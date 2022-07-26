@@ -18,6 +18,10 @@ body {
 
 }
 
+.logo {
+    font-family: Pirou, Times, serif;
+}
+
 .intro {
     flex: 1;
     display: flex;
