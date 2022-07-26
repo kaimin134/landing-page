@@ -14,8 +14,8 @@ function createGrid (x) {
         for (let i = 0; i < x*x; i++) {
             let square = document.createElement('div');
             square.setAttribute("id", "grid");
-            square.style.height = `${clientHeight / 50}px`;
-            square.style.width = `${clientWidth / 50}px`;
+            square.style.height = `${clientWidth / 20}px`;
+            square.style.width = `${clientWidth / 20}px`;
             background.appendChild(square);
         }
     
@@ -25,14 +25,15 @@ function createGrid2 (x) {
     for (let i = 0; i < x*x; i++) {
         let square2 = document.createElement('div');
         square2.setAttribute("id", "grid2");
-        square2.style.height = `${clientHeight2 / 20}px`;
+        square2.style.height = `${clientWidth2 / 20}px`;
         square2.style.width = `${clientWidth2 / 20}px`;
         background.appendChild(square2);
     }
 
 };
-createGrid(50);
-createGrid2(20);
+createGrid(10);
+
+/*createGrid2(10);*/
 
 
 const grids = document.querySelectorAll("#grid");
