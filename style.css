@@ -2,20 +2,42 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-
- 
 }
 
-body {
-}
+
 .header{
     background-color: #f3c677;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     padding: 8px 72px 32px;
 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+nav div{
+    font-size: 42px;
+    color: black;
+    margin-bottom: 32px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+h1 {
+    line-height: 48px;
 }
 
 .intro {
@@ -64,26 +86,6 @@ h1{
 
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 64px;
-    margin-right: 64px;
-}
-
-nav div{
-    font-size: 42px;
-    color: black;
-
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 24px;
-}
 
 a {
     text-decoration: none;
@@ -224,7 +226,14 @@ h2 {
 }
 h3 {
     font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
+
+.text p {
+    line-height: 20px;
+}
+
 .call p{
     color:#f3c677;
     font-size: 20px;
@@ -250,13 +259,13 @@ body {
 
 footer {
     background-color: black;
-    padding: 32px;
+    padding: 32px 32px 32px 7px;
     text-align: center;
     color: #f3c677;
     z-index: 1;
     position: relative;
     position: fixed;
-  left: 0;
+  
   bottom: 0;
   width: 100%;
 }
@@ -320,11 +329,27 @@ footer {
 
     @media only screen and (max-width: 800px) {
         .header {
-            padding: 8px 50px 32px;
+            padding: 8px 20px 32px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 20px;
+
+        }
+
+        ul {
+            display: none;
+        }
+
+        h1 {
+            line-height: 46px;
         }
 
         .intro {
             flex-direction: column;
+            margin: 20px;
         }
 
         .intro img {
@@ -354,17 +379,17 @@ footer {
 
         .call {
             background-color: black;
-            margin: 80px 100px; 
-            padding: 50px 50px;
+            margin: 80px 32px; 
+            padding: 32px 32px;
             display: flex;
             color: #f3c677;
-            align-items: space-between;
+            align-items: center;
             justify-content: center;
             border-radius: 5px;
             z-index: 1;
             position: relative;
             flex-direction: column;
-            font-size: 5px;
+            text-align: center;
         }
 
         .text {
