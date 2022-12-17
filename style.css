@@ -220,6 +220,7 @@ h2 {
     border-radius: 5px;
     z-index: 1;
     position: relative;
+    gap: 18px;
 }
 h3 {
     font-size: 24px;
@@ -316,3 +317,59 @@ footer {
             transform: translateY(0%);
         }
     }
+
+    @media only screen and (max-width: 800px) {
+        .header {
+            padding: 8px 50px 32px;
+        }
+
+        .intro {
+            flex-direction: column;
+        }
+
+        .intro img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .quote{
+            padding: 50px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        .call button {
+            border-color:#f3c677;
+            border-radius: 5px;
+            color:#f3c677;
+            background-color: #7b1e7a;
+            padding: 4px 10px;
+            flex: 0 0 auto;
+            border-style: solid;
+            font-size: 20px;
+        }
+
+        .call {
+            background-color: black;
+            margin: 80px 100px; 
+            padding: 50px 50px;
+            display: flex;
+            color: #f3c677;
+            align-items: space-between;
+            justify-content: center;
+            border-radius: 5px;
+            z-index: 1;
+            position: relative;
+            flex-direction: column;
+            font-size: 5px;
+        }
+
+        .text {
+            font-size: 10px;
+        }
+
+    }
+    

@@ -20,6 +20,7 @@ function createGrid (x) {
         }
     
 };
+/*
 function createGrid2 (x) {
   
     for (let i = 0; i < x*x; i++) {
@@ -31,6 +32,7 @@ function createGrid2 (x) {
     }
 
 };
+*/
 createGrid(10);
 
 /*createGrid2(10);*/
