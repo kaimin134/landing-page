@@ -345,13 +345,14 @@ body {
 
   .intro {
     flex-direction: column;
-    margin: 20px;
+    margin: 100px 20px 20px 20px;
   }
 
   .intro img {
     object-fit: cover;
-    height: 100%;
-    width: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
   }
 
   .quote {
