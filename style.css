@@ -20,13 +20,19 @@ section {
   flex-direction: column;
   justify-content: space-between;
   padding: 8px 72px 32px;
+  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
   margin-left: 64px;
   margin-right: 64px;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 90%;
 }
 
 nav div {
@@ -61,7 +67,6 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  height: 100%;
   gap: 12px;
 }
 
@@ -99,6 +104,8 @@ nav a {
 .intro img {
   object-fit: cover;
   height: 670px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 h2 {
@@ -189,7 +196,7 @@ h2 {
   position: relative;
   z-index: 1;
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
   border-color: #f3c677;
   border-radius: 5px;
   color: #f3c677;
@@ -261,18 +268,6 @@ body {
   background-color: #f3c677;
 }
 
-footer {
-  background-color: black;
-  padding: 32px 32px 32px 7px;
-  text-align: center;
-  color: #f3c677;
-  z-index: 1;
-  position: relative;
-  position: fixed;
-
-  bottom: 0;
-  width: 100%;
-}
 #btn4 {
   cursor: pointer;
   animation: 2s ease-out 0s 1 scaleUp;
@@ -337,6 +332,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
+    position: relative;
   }
 
   ul {
