@@ -16,8 +16,8 @@ function createGrid(x) {
   for (let i = 0; i < x * x; i++) {
     let square = document.createElement("div");
     square.setAttribute("id", "grid");
-    square.style.height = `${clientWidth / 20}px`;
-    square.style.width = `${clientWidth / 20}px`;
+    square.style.height = `${clientWidth / 17}px`;
+    square.style.width = `${clientWidth / 17}px`;
     background.appendChild(square);
   }
 }
@@ -27,8 +27,8 @@ function createGrid2(x) {
   for (let i = 0; i < x * x; i++) {
     let square2 = document.createElement("div");
     square2.setAttribute("id", "grid2");
-    square2.style.height = `${clientWidth / 20}px`;
-    square2.style.width = `${clientWidth / 20}px`;
+    square2.style.height = `${clientWidth / 17}px`;
+    square2.style.width = `${clientWidth / 17}px`;
     background2.appendChild(square2);
   }
 }

@@ -8,6 +8,7 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
+  scroll-padding-top: 85px;
 }
 
 section {
@@ -163,7 +164,7 @@ h2 {
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 250px;
+  gap: 230px;
   flex-wrap: wrap;
 }
 
@@ -179,14 +180,14 @@ h2 {
   object-fit: cover;
   width: 350px;
   height: 250px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .card {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
   color: black;
   max-width: 130px;
   font-weight: bold;
