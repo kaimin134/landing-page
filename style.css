@@ -8,7 +8,6 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
   scroll-snap-type: y proximity;
-  scroll-padding-top: 85px;
 }
 
 section {
@@ -34,6 +33,10 @@ nav {
   position: fixed;
   top: 0;
   width: 90%;
+}
+
+nav img {
+  max-height: 40px;
 }
 
 nav div {
@@ -121,8 +124,7 @@ h2 {
 .info,
 .info2 {
   position: relative;
-  padding: 36px;
-  padding-bottom: 108px;
+  padding: 36px 36px 0 36px;
 }
 
 .info-content {
@@ -219,7 +221,7 @@ h2 {
   font-style: italic;
   font-weight: lighter;
   color: black;
-  padding: 108px 216px;
+  padding: 20px 50px;
 }
 .author {
   text-align: right;
